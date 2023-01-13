@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("http://fonts.googleapis.com/css?family=Russo+One");
+@import url("http://fonts.googleapis.com/css?family=Lora");
+
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+html,
+body {
+    font-size: 18px;
+    min-height: 100vh;    
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    height: 100%  
+}
+
+:active, :focus {
+  outline: none;
+}
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a, a:visited, a:hover {
+  text-decoration: underline;
+}
+
+nav, header, footer, aside {
+  display: block;
+}
+
+p{
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 12px;
+  font-weight: bold;
+
+}
+h2 {
+  font-size: 10px;
+  font-weight: 300;
+
+}
+h3 {
+  font-size: 9px;
+  font-weight: lighter;
+
+}
+h4 {
+  font-size: 10px;
+  font-weight: lighter;
+
+}
+h5 {
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+@media (min-width: 640px) {
+  p{
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 15px;
+  
+  }
+  h2 {
+    font-size: 12px;
+  
+  }
+  h3 {
+    font-size: 11px;
+  
+  }
+  h4 {
+    font-size: 12px;
+  
+  }
+  h5 {
+    font-size: 12px;
+  
+  }
+  
+}
+
+@media (min-width: 768px) {
+  p{
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 15px;
+  
+  }
+  h2 {
+    font-size: 12px;
+  
+  }
+  h3 {
+    font-size: 11px;
+  
+  }
+  h4 {
+    font-size: 12px;
+  
+  }
+  h5 {
+    font-size: 12px;
+  
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+  p{
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 22px;
+  
+  }
+  h2 {
+    font-size: 20px;
+  
+  }
+  h3 {
+    font-size: 18px;
+  
+  }
+  h4 {
+    font-size: 20px;
+  
+  }
+  h5 {
+    font-size: 20px;
+  
+  }
+}
+
+@media (min-width: 1440px) {
+  p{
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 17px;
+  
+  }
+  h2 {
+    font-size: 14px;
+  
+  }
+  h3 {
+    font-size: 13px;
+  
+  }
+  h4 {
+    font-size: 14px;
+  
+  }
+  h5 {
+    font-size: 14px;
+  
+  }
+}
+
+
+
+
+
+
+

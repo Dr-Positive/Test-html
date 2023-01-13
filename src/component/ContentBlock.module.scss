@@ -1,0 +1,54 @@
+@import "../styles//globalsColor.scss";
+
+.main {
+    background-color: rgb(255, 255, 255);   
+    border: 0.5px solid #C9C9C9;
+    margin: 10px 0 10px 0;
+    padding: 0 10px 0 10px;
+}
+
+.title {
+    border-bottom: 2px solid  $main-color;
+    margin: 5px 10px 0 0;
+    // padding: 0 10px 0 10px;
+}
+
+.subtitle {
+    // padding: 0 10px 0 10px;
+    margin: 0 0  10px 5px;
+}
+.text {
+    // padding: 0 10px 0 10px;
+    margin-left: 15px;
+}
+
+.button 
+{
+    min-width: 140px;
+    min-height: 20px;
+    align-items: center;
+    justify-content: center;
+    background:none;
+    border-radius: 6px;
+    margin: 20px 50px 20px 20px;
+     border: 2px solid $main-color;    
+     background-color: $main-color
+     
+
+}
+
+.btntext{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@media (min-width: 640px) {
+  .btntext{
+    min-height: 75px; 
+    min-height: 20px;
+
+  }
+
+}
+
